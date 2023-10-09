@@ -4,5 +4,23 @@
 
 .bg-brown{
     background-color: #C67F61;
-    color: #000;
+    color: #FFFF;
+}
+
+.titleproduction{
+    margin-top: 50px;
+}
+
+.production{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.firstrow{
+    margin-top: 100px;
+    align-items: center;
+}
+.secondrow{
+    margin-top: 100px;
+    align-items: center;
 }
