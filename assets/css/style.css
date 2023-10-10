@@ -2,6 +2,14 @@
     color: #C67F61;
 }
 
+.text-darkbrown{
+    color: #57210A;
+}
+
+.text-lightbrown{
+    color: #AC7B87;
+}
+
 .bg-brown{
     background-color: #C67F61;
     color: #FFFF;
@@ -24,3 +32,4 @@
     margin-top: 100px;
     align-items: center;
 }
+

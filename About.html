@@ -7,15 +7,35 @@
     <title>About Us</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+      .center-badge {
+        position: absolute;
+        top: -25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .jumbotron {
+        background-image: url('assets/img/Rectangle-12.png'); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: white;
+        margin-bottom: 0px;
+    }
 
+    .custom-container {
+        background-color: rgba(139, 69, 19, 0.495);
+        padding: 20px; 
+    }
+  </style>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-brown">
         <a class="navbar-brand" href="#">
-          <img src="src/img/Logo MSC.jpg" width="45" height="45" alt="MSC" class="rounded">
+          <img src="assets/img/Logo_Kopit.png" width="45" height="45" alt="Kopit Sehat" class="rounded">
         </a>    
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -48,15 +68,33 @@
           </div>
       </nav>
       
-    <div class="containerfluid mx-auto bg-light">
-        <h1 class="text-center text-brown font-weight-bold text-uppercase">Tentang Kopi Sehat</h1>
-        <hr>
+    <div class="container-fluid bg-light">
+        <div class="row justify-content-center">
+            <div class="col-md-4 my-auto">
+              <div class="">
+                <span class="badge badge-pill bg-brown px-md-3 py-md-2 center-badge">
+                    <p class="h5 text-darkbrown font-weight-bold">About Us</p> 
+                </span>
+                
+              </div>
+                <p class="h5 text-lightbrown">
+                  Kopit Sehat lahir dari sebuah Program Kementerian Pendidikan dan Kebudayaan di lingkup Perguruan Tinggi, 
+                  yaitu Program Kreativitas Mahasiswa Skema Kewirausahaan 2023. Kopit Sehat dibangun atas inisiasi mahasiswa 
+                  asal USU Di bawah bimbingan <b>Bapak Taufik Akbar P.SE., M.Si.</b>
+                </p>
+            </div>
+            <div class="col-md-6">
+              <img src="assets/img/Group-8.png" class="w-100" alt="...">
+            </div>
+        </div>
+    </div>
+
     </div>
 
     <div class="container my-md-2">
        <div class="row">
-            <div class="col-md-12 text-center">
-                <p class="lead">Kopit Sehat lahir dari sebuah Program Kementerian Pendidikan dan Kebudayaan di lingkup 
+            <div class="col-md-12 text-center ">
+                <p class="lead text-lightbrown font-weight-normal">Kopit Sehat lahir dari sebuah Program Kementerian Pendidikan dan Kebudayaan di lingkup 
                     Perguruan Tinggi, yaitu Program Kreativitas Mahasiswa Skema Kewirausahaan 2023.<br> Kopit 
                     Sehat dibangun atas inisiasi mahasiswa asal USU :</p>
                 
@@ -66,18 +104,63 @@
        </div>
     </div>
 
-    <div class="container my-md-5 mx-auto bg-light rounded">
-        <div class="row">
-            <div class="col-md-3">
-                <img src="src/img/IMG_9157.JPG" alt="" class="img-fluid rounded">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+                <div class="container-fluid py-md-5 mx-auto bg-brown rounded">
+                  <div class="row justify-content-around">
+                      <div class="col-md-2">
+                          <img src="assets/img/profil-mery.jpg" alt="" class="img-fluid rounded mb-md-2">
+                          <p class="h4 text-light text-center font-weight-bolder">Ketua</p>
+                          <p class="h5 text-light text-center font-weight-bolder">Mery Christina Sijabat</p>
+                          <p class="h6 text-light text-center font-weight-bolder">Ekonomi Pembangunan</p>
+                      </div>
+                      <div class="col-md-2">
+                          <img src="assets/img/profil-taufik.png" alt="" class="img-fluid rounded mb-md-2">
+                          <p class="h4 text-light text-center font-weight-bolder">Dosen Pendamping</p>
+                          <p class="h5 text-light text-center font-weight-bolder">Taufik Akbar P.SE., M.Si.</p>
+                      </div>
+                      <div class="col-md-2">
+                        <img src="assets/img/profil-fatya.png" alt="" class="img-fluid rounded mb-md-2">
+                        <p class="h4 text-light text-center font-weight-bolder">Anggota</p>
+                        <p class="h5 text-light text-center font-weight-bolder">Fatya Khairani</p>
+                        <p class="h6 text-light text-center font-weight-bolder">Kesehatan Masyarakat</p>
+                      </div>
+                  </div>       
+              </div>
+        </div>
+        <div class="carousel-item">
+              <div class="container-fluid py-md-5 mx-auto bg-brown">
+                <div class="row justify-content-around">
+                    <div class="col-md-2">
+                      <img src="assets/img/profil-helen.png" alt="" class="img-fluid rounded mb-md-2">
+                      <p class="h4 text-light text-center font-weight-bolder">Anggota</p>
+                      <p class="h5 text-light text-center font-weight-bolder">Helen</p>
+                      <p class="h6 text-light text-center font-weight-bolder">Farmasi</p>
+                    </div>
+                    <div class="col-md-2">
+                      <img src="assets/img/profil-fatya.png" alt="" class="img-fluid rounded mb-md-2">
+                      <p class="h4 text-light text-center font-weight-bolder">Anggota</p>
+                      <p class="h5 text-light text-center font-weight-bolder">Ardaniel Euprasia</p>
+                      <p class="h6 text-light text-center font-weight-bolder">Kedokteran</p>
+                    </div>
+                    <div class="col-md-2">
+                      <img src="assets/img/profil-sri.png" alt="" class="img-fluid rounded mb-md-2">
+                      <p class="h4 text-light text-center font-weight-bolder">Anggota</p>
+                      <p class="h5 text-light text-center font-weight-bolder">Sri Windy Wahyuni</p>
+                      <p class="h6 text-light text-center font-weight-bolder">Antropologi Sosial</p>
+                    </div>
+                </div>       
             </div>
-            <div class="col-md-6">
-                <img src="src/img/IMG_9148.JPG" alt="" class="img-fluid rounded">
-            </div>
-            <div class="col-md-3">
-                <img src="src/img/IMG_9157.JPG" alt="" class="img-fluid rounded">
-            </div>
-        </div>        
+        </div>
+      </div>
     </div>
-</body>
-</html>
+
+    <div class="jumbotron">
+      <div class="container custom-container rounded">
+        <p class="text-center h5">Kopit Sehat lahir atas tingginya angka kematian akibat diabetes, hipertensi, dan kanker. Kami tahu membuat perubahan bukanlah hal yang mudah. Kopit Sehat hadir menawarkan solusi dan kecintaan yang sama dengan produk kopi pada umumnya.</p>
+         <p class="text-center h4 font-weight-normal text-warning"> MENCEGAH LEBIH BAIK DARIPADA MENGOBATI</p>
+      </div>
+    </div>
+  </body>
+  </html>
