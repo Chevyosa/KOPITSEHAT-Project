@@ -1,5 +1,5 @@
 .text-brown{
-    color: #C67F61;
+    color: rgb(198, 127, 97);
 }
 
 .text-darkbrown{
@@ -13,6 +13,26 @@
 .bg-brown{
     background-color: #C67F61;
     color: #FFFF;
+}
+
+.center-badge {
+    position: absolute;
+    top: -25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .jumbotron {
+    background-image: url('../img/Rectangle-12.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.custom-container {
+    background-color: rgba(198, 127, 97, 0.39);
+    padding: 20px; 
 }
 
 .titleproduction{
