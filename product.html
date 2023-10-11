@@ -15,7 +15,7 @@
 <body>
   <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-body-tertiary">
     <div class="container">
-      <a class="navbar-brand">
+      <a class="navbar-brand" href="index.html">
         <img src="./assets/img/Logo_Kopit.png" width="35" height="35" class="d-inline-block align-text-top">
         <span class="d-inline-block align-text-top navbartext">KOPIT SEHAT</span>
       </a>
@@ -37,7 +37,7 @@
             <a class="nav-link text-white active" href="product.html">Our Product</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="https://shopee.co.id/kopikunyit" target="_blank">Order</a>
+            <a class="nav-link text-white" data-toggle="modal" data-target="#exampleModal">Order</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white" href="contact.html">Contact Us</a>
@@ -46,6 +46,48 @@
       </div>
     </div>
   </nav>
-  
+
+  <footer class="text-white">
+    <div>
+      <img src="./assets/img/Logo_Kopit.png" class="logofooter">
+    </div>
+    <p class="text-muted-white" id="copyright">©2023 Kopit Sehat</p>
+  </footer>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header bg-brown">
+                  <img src="./assets/img/Logo_Kopit.png" width="35" height="35" class="d-inline-block align-text-top">
+                  <span class="d-inline-block align-text-top navbartext">&emsp;KOPIT SEHAT</span>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row justify-content-lg-around">
+                    <div class="col-md-2">
+                      <a href="https://instagram.com/kopitsehat.officiall" target="_blank">
+                        <img src="assets/img/instagram.png" width="50px" class="img-fluid rounded mb-md-2 ml-md-4">
+                        <p class="h6 text-brown text-decoration-none">kopitsehat.officiall</p>
+                      </a>
+                    </div>
+                    <div class="col-md-2">
+                      <a href=" https://wa.me/62895333003720" target="_blank">
+                        <img src="assets/img/whatsapp.png" alt="" width="50px" class="img-fluid rounded mb-md-2 ml-md-4">
+                        <p class="h6 text-brown text-decoration-none">0895-3330-03720</p>
+                      </a>
+                    </div>
+                    <div class="col-md-2">
+                      <a href="https://shopee.co.id/kopikunyit" target="_blank">
+                        <img src="assets/img/shoppe.png" alt="" width="50px" class="img-fluid rounded mb-md-2 ml-md-2">
+                        <p class="h6 text-brown text-decoration-none">kopikunyit</p>
+                      </a>
+                    </div>
+                </div>    
+                </div>
+              </div>
+            </div>
+          </div>
 </body>
 </html>
