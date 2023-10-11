@@ -24,6 +24,12 @@ nav{
     width: 100%;
 }
 
+span.navbartext{
+    font-weight: 625;
+    font-size: 22px;
+    color: white;
+}
+
 label.logo{
     color: #FFFF;
     font-size: 25px;
@@ -37,22 +43,31 @@ nav ul{
 
 nav ul li{
     display: inline-block;
-    line-height: 60px;
     margin: 0 5px;
 }
 
 nav ul li a{
     color: #FFFF;
     font-size: 15px;
-    padding: 5px 15px 7px;
+    padding: 5px 15px 5px;
     border-radius: 20px;
 }
 
-a.active, a:hover{
+a.active{
+    background: #57210A;
+    transition: .2s;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFF;
+    width: 100px;
+}
+
+a.nav-link:hover{
     background: #57210A;
     transition: .2s;
     text-decoration: none;
     color: #FFFF;
+    padding: 5px 20px;
 }
 
 .checkbtn{
@@ -99,7 +114,7 @@ a.active, a:hover{
 }
 
 .titleproduction{
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .production{
@@ -107,6 +122,28 @@ a.active, a:hover{
     height: 200px;
     border-radius: 50%;
 }
+
+.production2{
+    width: 200px;
+    height: 200px;
+    margin-left: 35px;
+    border-radius: 50%;
+}
+
+.production4{
+    width: 200px;
+    height: 200px;
+    margin-left: 33px;
+    border-radius: 50%;
+}
+
+.production5{
+    width: 200px;
+    height: 200px;
+    margin-right: 200px;
+    border-radius: 50%;
+}
+
 .firstrow{
     margin-top: 100px;
     align-items: center;
@@ -115,4 +152,33 @@ a.active, a:hover{
     margin-top: 100px;
     align-items: center;
 }
+.thirdrow{
+    margin-top: 100px;
+    align-items: center;
+}
+.fourthrow{
+    margin-bottom: 100px;
+    align-items: center;
+}
+.fifthrow{
+    margin-bottom: 100px;
+    align-items: center;
+}
 
+footer{
+    background-image: url(../img/foto-footer.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.logofooter{
+    width: 75px;
+    height: 75px;
+}
+
+#copyright{
+    padding-top: 30px;
+}
