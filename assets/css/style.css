@@ -108,7 +108,7 @@ a.nav-link:hover{
 }
 
 .titleproduction{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .titleproduct{
@@ -262,4 +262,34 @@ footer.footerproduct{
     transition: .2s;
     text-decoration: none;
     color: #FFFF;
+}
+.indexproduction{
+    margin-bottom: 50px;
+}
+
+.readmore{
+    background: #57210A;
+    text-decoration: none;
+    color: #FFFF;
+    margin-top: 10px;
+    padding: 5px 10px 5px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.productbg{
+    background-image: url(../img/Bg-ourProducts\ \(3\).png);
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.ourproduct{
+    font-weight: 700;
+}
+
+.enjoy{
+    padding-top: 10px;
+    font-size: 13.7px;
 }
