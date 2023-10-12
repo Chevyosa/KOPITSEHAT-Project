@@ -154,6 +154,11 @@ a.nav-link:hover{
     border-radius: 50%;
 }
 
+.contactrow{
+    margin-top: 75px;
+    align-items: center;
+}
+
 .firstrow{
     margin-top: 100px;
     align-items: center;
@@ -224,10 +229,51 @@ footer.footerproduct{
     height: 225px;
 }
 .contact1{
-    width: 225px;
-    height: 225px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
 }
 .contact2{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.centered-item{
+    display: flex;
+    justify-content: center; /* Mengatur posisi horizontal ke tengah */
+}
+
+.contactcol1{
+    padding-right: 75px;
+}
+
+.contactcol2{
+    padding-left: 75px;
+}
+
+.wacapt{
+    font-size: 15px;
+    color: black;
+    padding: 10px 5px;
+    border-radius: 20px;
+}
+.wacapt:hover{
+    background: #57210A;
+    transition: .2s;
+    text-decoration: none;
+    color: #FFFF;
+}
+
+.igcapt{
+    font-size: 15px;
+    color: black;
+    padding: 10px 5px;
+    border-radius: 20px;
+}
+.igcapt:hover{
+    background: #57210A;
+    transition: .2s;
+    text-decoration: none;
+    color: #FFFF;
 }
