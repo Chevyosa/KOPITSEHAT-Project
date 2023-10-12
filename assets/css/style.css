@@ -93,12 +93,6 @@ a.nav-link:hover{
     color: #FFFF;
 }
 
-.center-badge {
-    position: absolute;
-    top: -25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
   .jumbotron {
     background-image: url('../img/Rectangle-12.png'); 
     background-size: cover;
