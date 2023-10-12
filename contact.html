@@ -7,7 +7,7 @@
       <title>About Us</title>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
       <link rel="stylesheet" href="assets/css/style.css">
-
+      <link rel="stylesheet" href="assets/css/animate.css">
 
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
@@ -37,7 +37,7 @@
               <a class="nav-link text-white" href="product.html">Our Product</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="https://shopee.co.id/kopikunyit" target="_blank">Order</a>
+              <a class="nav-link text-white" data-toggle="modal" data-target="#exampleModal">Order</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white active" href="contact.html">Contact Us</a>
@@ -46,10 +46,16 @@
         </div>
       </div>
     </nav>
+
+    <section class="wow fadeInDown" id="main-1">
     <div class="container">
       <div class="container text-center titlecontact">
+        <p class="h1 font-weight-bold text-darkbrown text-center">Contact Us</p>
+          <center>
+            <hr class="mb-md-5" width="25%" style="height:5px;border:none;color:#C67F61;background-color:#C67F61;">
+          </center>
         <h4>Any Questions?</h4>
-        <h4>Contact Us</h4>
+        
         <div class="row text-center centered-item">
           <div class="row contactrow">
             <div class="col-sm-6 pt-lg-5 contactcol1" data-aos="fade-left" data-aos-duration="1000">
@@ -64,6 +70,7 @@
         </div>
       </div>
     </div>
+  </section>
     <!-- Footer -->
     <footer class="text-white footerproduct">
       <div>
@@ -71,5 +78,63 @@
       </div>
       <p class="text-muted-white" id="copyright">©2023 Kopit Sehat</p>
     </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-brown">
+            <img src="./assets/img/Logo_Kopit.png" width="35" height="35" class="d-inline-block align-text-top">
+            <span class="d-inline-block align-text-top navbartext">&emsp;KOPIT SEHAT</span>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row justify-content-lg-around">
+              <div class="col-md-2">
+                <a href="https://instagram.com/kopitsehat.officiall" target="_blank">
+                  <img src="assets/img/instagram.png" width="50px" class="img-fluid rounded mb-md-2 ml-md-4">
+                  <p class="h6 text-brown text-decoration-none">kopitsehat.officiall</p>
+                </a>
+              </div>
+              <div class="col-md-2">
+                <a href="https://wa.me/62895333003720" target="_blank">
+                  <img src="assets/img/whatsapp.png" alt="" width="50px" class="img-fluid rounded mb-md-2 ml-md-4">
+                  <p class="h6 text-brown text-decoration-none">0895-3330-03720</p>
+                </a>
+              </div>
+              <div class="col-md-2">
+                <a href="https://shopee.co.id/kopikunyit" target="_blank">
+                  <img src="assets/img/shoppe.png" alt="" width="50px" class="img-fluid rounded mb-md-2 ml-md-2">
+                  <p class="h6 text-brown text-decoration-none">kopikunyit</p>
+                </a>
+              </div>
+          </div>    
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/wow.js"></script>
+     <script>
+       wow = new WOW(
+         {
+           animateClass: 'animated',
+           offset:       100,
+           callback:     function(box) {
+             console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+           }
+         }
+       );
+       wow.init();
+       document.getElementById('moar').onclick = function() {
+         var section = document.createElement('section');
+         section.className = 'section--purple wow fadeInDown';
+         this.parentNode.insertBefore(section, this);
+       };
+     </script>
+      <script type="text/javascript" src="assets/js/jquery.js"></script>
+      <script type="text/javascript" src="assets/js/bootstrap.js"></script>
   </body>
 </html>
