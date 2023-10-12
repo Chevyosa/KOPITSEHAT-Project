@@ -122,30 +122,27 @@ a.nav-link:hover{
 }
 
 .production{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 270px;
+    height: 480px;
 }
 
 .production2{
-    width: 200px;
-    height: 200px;
-    margin-left: 35px;
-    border-radius: 50%;
+    width: 270px;
+    height: 480px;
+    justify-content: right;
+    align-items: end;
 }
 
 .production4{
-    width: 200px;
-    height: 200px;
-    margin-left: 33px;
-    border-radius: 50%;
+    width: 270px;
+    height: 480px;
 }
 
 .production5{
-    width: 200px;
-    height: 200px;
-    margin-right: 200px;
-    border-radius: 50%;
+    width: 270px;
+    height: 480px;
+    justify-content: right;
+    align-items: end;
 }
 
 .contactrow{
