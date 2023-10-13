@@ -299,3 +299,30 @@ footer.footerproduct{
     transform: translate(-50%, -50%); /* Membuat posisi tengah relatif terhadap elemen carousel */
     text-align: center; /* Untuk teks berada di tengah secara horizontal */
 }
+
+.custom-size{
+    max-width: 700px;
+    width: 100%;
+}
+
+.img-fluid{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.modal-ig{
+    color: black;
+}
+
+.modal-wa{
+    color: black;
+}
+
+.modal-shopee{
+    color: black;
+}
+
+.close{
+    color: white;
+    font-size: 30px;
+}
