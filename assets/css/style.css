@@ -24,7 +24,7 @@ img.logoimage{
 }
 
 nav{
-    background: #C67F61;
+    background: #6D2419;
     height: 60px;
     width: 100%;
 }
@@ -59,26 +59,20 @@ nav ul li a{
 }
 
 a.active{
-    background: #57210A;
-    transition: .2s;
+    background: #FFFF;
     text-decoration: none;
     text-align: center;
-    color: #FFFF;
+    color: #1E1918;
+    font-weight: 400;
     width: 100px;
 }
 
 a.nav-link:hover{
-    background: #57210A;
+    background: #FFFF;
     transition: .2s;
     text-decoration: none;
-    color: #FFFF;
+    color: #1E1918 !important;
     padding: 5px 20px;
-}
-
-.checkbtn{
-    font-size: 30px;
-    color: #FFFF;
-    float: right;
 }
 
 .text-brown{
@@ -95,7 +89,7 @@ a.nav-link:hover{
 
 .bg-brown{
     background-color: #C67F61;
-    color: #FFFF;
+    color: #1E1918;
 }
 
   .jumbotron {
@@ -297,4 +291,12 @@ footer.footerproduct{
 .enjoy{
     padding-top: 10px;
     font-size: 13px;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 75%; /* Posisi vertikal tengah */
+    left: 50%; /* Posisi horizontal tengah */
+    transform: translate(-50%, -50%); /* Membuat posisi tengah relatif terhadap elemen carousel */
+    text-align: center; /* Untuk teks berada di tengah secara horizontal */
 }
