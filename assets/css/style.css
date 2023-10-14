@@ -140,6 +140,18 @@ a.nav-link:hover{
     border-radius: 5%;
 }
 
+.productionhome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery{
+    width: 100%;
+    height: 90%;
+    border-radius: 5%;
+}
+
 .contactrow{
     margin-top: 75px;
     align-items: center;
@@ -344,9 +356,10 @@ footer{
 .productbg{
     background-image: url(../img/Bg-ourProducts\ \(3\).png);
     background-position: center;
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: 350px;
+    height: 400px;
 }
 
 .ourproduct{
