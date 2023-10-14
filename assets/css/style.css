@@ -137,25 +137,7 @@ a.nav-link:hover{
 .production{
     width: 90%;
     height: 90%;
-}
-
-.production2{
-    width: 270px;
-    height: 480px;
-    justify-content: right;
-    align-items: end;
-}
-
-.production4{
-    width: 270px;
-    height: 480px;
-}
-
-.production5{
-    width: 270px;
-    height: 480px;
-    justify-content: right;
-    align-items: end;
+    border-radius: 5%;
 }
 
 .contactrow{
