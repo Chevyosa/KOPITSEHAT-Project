@@ -181,42 +181,87 @@ a.nav-link:hover{
 
 footer{
     background-image: url(../img/foto-footer.png);
-    background-position: center;
-    color: white;
-    text-align: center;
-    align-items: center;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    color: white; /* Warna teks */
-    padding: 20px; /* Ruang padding */
 }
 
-footer.footerproduct{
-    background-image: url(../img/foto-footer.png);
-    background-position: center;
-    color: white;
-    text-align: center;
-    align-items: center;
-    position: fixed;
-    bottom: 0;
-    left: 0;
+.footerContainer{
     width: 100%;
-    color: white; /* Warna teks */
-    padding: 20px; /* Ruang padding */
+    padding: 40px 20px 30px;
 }
 
-.logofooter{
-    width: 60px;
-    height: 60px;
+.socialIcon{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcon a{
+    text-decoration: none;
+    padding: 15px;
+    background-color: #FFFF;
+    margin: 30px;
+    border-radius: 50%;
+}
+
+.socialIcon a i{
+    font-size: 2em;
+    color: #6D2419;
+    opacity: 0.9;
+}
+
+.socialIcon a:hover{
+    background-color: #6D2419;
+    transition: 0.5s;
+}
+
+.socialIcon a:hover i{
+    color: #FFFF;
+    transition: 0.5s;
+}
+
+.footerNav{
+    margin: 20px 0;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav ul li a{
+    color: #FFFF;
+    margin: 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+
+.footerBottom{
+    background-color: #1E1918;
+    padding: 10px;
+    text-align: center;
+}
+
+.footerBottom p{
+    color: #FFFF;
+}
+
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    }
+    .footerNav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
 }
 
 #copyright{
     margin-top: 10px;
-}
-
-#footer{
-    align-items: center;
 }
 
 .product1{
