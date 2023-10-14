@@ -163,20 +163,40 @@ a.nav-link:hover{
     align-items: center;
 }
 
+.one{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.two{
+    display: flex;
+    justify-content: center;
+}
+
 .firstrow{
     align-items: center;
 }
+
 .secondrow{
+    display: flex;
+    justify-content: right;
     align-items: center;
 }
+
 .thirdrow{
     align-items: center;
 }
+
 .fourthrow{
+    display: flex;
+    justify-content: right;
     align-items: center;
 }
+
 .fifthrow{
     align-items: center;
+    margin-bottom: 50px;
 }
 
 footer{
@@ -249,7 +269,7 @@ footer{
     color: #FFFF;
 }
 
-@media (max-width: 700px){
+@media (max-width: 800px){
     .footerNav ul{
         flex-direction: column;
     }
@@ -258,6 +278,10 @@ footer{
         text-align: center;
         margin: 10px;
     }
+}
+
+.bg-light{
+    max-width: 100%;
 }
 
 #copyright{
