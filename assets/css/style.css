@@ -135,8 +135,8 @@ a.nav-link:hover{
 }
 
 .production{
-    width: 270px;
-    height: 480px;
+    width: 90%;
+    height: 90%;
 }
 
 .production2{
@@ -308,11 +308,19 @@ footer.footerproduct{
 }
 
 .carousel-caption{
-    position: absolute;
-    top: 75%; /* Posisi vertikal tengah */
-    left: 50%; /* Posisi horizontal tengah */
+    position:absolute;
+    height: auto; /* Posisi vertikal tengah */
+    top: 61%;
+    justify-content: center;
+    left: 42.5%; /* Posisi horizontal tengah */
     transform: translate(-50%, -50%); /* Membuat posisi tengah relatif terhadap elemen carousel */
-    text-align: center; /* Untuk teks berada di tengah secara horizontal */
+    text-align: left; /* Untuk teks berada di tengah secara horizontal */
+    color: #6D2419;
+    font-size: 80%;
+}
+
+.carousel-indicators{
+    height: 10%;
 }
 
 .custom-size{
